@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--DEVELOPER: Zabil Tahir, IS117-003, Fall, 2024 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="Styles\styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Outer Rectangle -->
+    <div class="outer-rectangle">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <a class="navbar-brand" href="index.html">
+                <img src="Images/db-1-star-dragonball.webp" alt="A one-star dragon ball" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="characterDropdown" role="button" data-bs-toggle="dropdown">
+                            Character Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="shin.html">Shin</a></li>
+                            <li><a class="dropdown-item" href="vegeta.html">Vegeta</a></li>
+                            <li><a class="dropdown-item" href="goku.html">Goku</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="dbSummary.html">Dragon Ball Summary</a></li>
+                    <li class="nav-item"><a class="nav-link" href="DbDaima.html">Dragon Ball Daima</a></li>
+                    <li class="nav-item"><a class="nav-link" href="AkiraMemorial.html">Akira Toriyama Memorial</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Page</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Inner Rectangle -->
+        <div class="inner-rectangle">
+            <div class="row align-items-center">
+                <!-- title logo -->
+                <div class="col-12 text-center mb-4">
+                    <img src="Images/23374-9-dragon-ball-logo-file.png" alt="Dragon Ball Logo" class="img-fluid rounded">
+                </div>
+            </div>
+            <div class="row">
+                <!-- Welcome Section and Livestream -->
+                <div class="col-md-6">
+                    <h1 class="welcome-text">
+                        Welcome to the World of <span class="highlight">Dragon Ball</span>
+                    </h1>
+                    <p class="sub-text">Explore the epic battles, unforgettable characters, and incredible stories!</p>
+                    <div class="livestream mt-4">
+                        <h4 class="livestream-title text-center">Dragon Ball Livestream</h4>
+                        <video width="100%" height="200" controls class="livestream-video">
+                            <source src="video-placeholder.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                <!-- daima goku image -->
+                <div class="col-md-6 text-center d-flex align-items-center justify-content-center">
+                    <img src="Images/dgcbjy5-0d7154bd-db26-4618-b21b-78fee9174739.png" alt="Dragon Ball Daima Goku" class="main-image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card Section -->
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card shadow-lg">
+                    <div class="card-body">
+                        <h5 class="card-title">Featured Character: Goku</h5>
+                        <p class="card-text">
+                            Goku, the Saiyan warrior, defends Earth and the universe with his unparalleled strength, courage, and determination. Discover his journey from a child to the strongest fighter in the universe!
+                        </p>
+                        <a href="goku.html" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center mt-4">
+        <p>&copy; 2024 Zabil Tahir</p>
+        <p>
+            <a href="#">Terms of Service</a> |
+            <a href="#">Privacy Policy</a> |
+            <a href="contact.html">Contact Us</a>
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

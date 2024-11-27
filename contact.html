@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="Styles\styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Outer Rectangle -->
+    <div class="outer-rectangle">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <a class="navbar-brand" href="index.html">
+                <img src="Images/db-1-star-dragonball.webp" alt="A one-star dragon ball" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="characterDropdown" role="button" data-bs-toggle="dropdown">
+                            Character Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="shin.html">Shin</a></li>
+                            <li><a class="dropdown-item" href="vegeta.html">Vegeta</a></li>
+                            <li><a class="dropdown-item" href="goku.html">Goku</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="dbSummary.html">Dragon Ball Summary</a></li>
+                    <li class="nav-item"><a class="nav-link" href="DbDaima.html">Dragon Ball Daima</a></li>
+                    <li class="nav-item"><a class="nav-link" href="AkiraMemorial.html">Akira Toriyama Memorial</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact Page</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Contact Section -->
+        <div class="contact-container">
+            <!-- Left Placeholder Image -->
+            <div class="image-left">
+                <img src="Images\Anime Goku Png image.png" alt="Vegeta Super Saiyan 4" class="side-image">
+            </div>
+
+            <!-- Contact Form -->
+            <div class="text-box">
+                <h1 class="text-center welcome-text">Contact Page</h1>
+                <p class="text-center sub-text">Contact Me!</p>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Write your message here..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Submit</button>
+                </form>
+            </div>
+
+            <!-- Right Placeholder Image -->
+            <div class="image-right">
+                <img src="Images\Ultra Instinct Goku Png Photo.png" alt="Goku Super Saiyan" class="side-image">
+            </div>
+        </div>
+
+        <!-- Reason for Website -->
+        <div class="reason-box mx-auto mt-4">
+            <h3 class="text-center">Reason for This Website</h3>
+            <p class="text-justify">
+                This website was created to celebrate the incredible world of Dragon Ball. It serves as a tribute to Akira Toriyama's 
+                legendary work, showcasing key characters, storylines, and the impact of the Dragon Ball franchise on fans worldwide. 
+                Whether you're new to the series or a longtime fan, I hope this website provides an enjoyable experience!Please be sure
+                to watch Dragon Ball Daima airing every friday as it is Toriyama's final work!
+            </p>
+        </div>
+
+        <!-- Footer -->
+        <footer class="text-center mt-4">
+            <p>&copy; 2024 Zabil Tahir</p>
+            <p>
+                <a href="#">Terms of Service</a> |
+                <a href="#">Privacy Policy</a> |
+                <a href="contact.html">Contact Us</a>
+            </p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
